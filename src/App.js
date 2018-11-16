@@ -11,13 +11,6 @@ class App extends Component {
     super(props);
   }
 
-  // fill all, fill active, fill disactive
-  fillterList = (data) => {
-    this.setState({
-      dataFilter: data
-    });
-  }
-
   addTask = () => {
     this.props.openToggleForm();
     this.props.onClearDataEditForm();
