@@ -9,7 +9,6 @@ const myReducer = (state = initialState, action) => {
 
     switch (action.type) {
         case Types.FILLTERTASK:
-            console.log(action);
             return {
                 fillterName: action.fillter.fillterName,
                 fillterStatus: action.fillter.fillterStatus,
